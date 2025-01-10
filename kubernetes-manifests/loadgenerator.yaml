@@ -64,7 +64,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: busybox:latest
+        image: suspirium69/busybox:latest
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
